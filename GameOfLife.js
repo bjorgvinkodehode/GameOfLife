@@ -18,7 +18,7 @@ function draw(x, y, c, s) {
 
 // Generate a random color
 function randomColor() {
-  let r = Math.floor(Math.random() * 111);
+  let r = Math.floor(Math.random() * 1);
   let g = Math.floor(Math.random() * 234);
   let b = Math.floor(Math.random() * 23);
   return `rgb(${r},${g},${b})`;
